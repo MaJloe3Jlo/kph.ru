@@ -20,8 +20,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "КировПолимерХим"
+	description = "фторпласт"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
