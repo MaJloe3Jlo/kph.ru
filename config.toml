@@ -1,6 +1,6 @@
 baseurl = "https://majloe3jlo.github.io/kph.ru/"
-languageCode = "en-us"
-title = "КировПолимерХим"
+languageCode = "ru-ru"
+title = "ООО КПХ"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
@@ -20,7 +20,7 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "КировПолимерХим"
+	name = "КИРОВПОЛИМЕРХИМ"
 	description = "фторпласт"
 
 	# The path must be relative to the static folder
@@ -29,7 +29,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "КировПолимерХим"
+		brand = "ООО КПХ"
 
 		[params.navigation.links]
 			about     = "О компании"
@@ -42,7 +42,7 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "КировПолимерХим"
+		slogan     = "КИРОВПОЛИМЕРХИМ"
 		subtitle   = "ООО «КировПолимерХим» более 10 лет на рынке товаров из фторпласта. Динамично и эффективно развивающаяся производственная компания, деятельность которой направлена на поддержание и расширение ассортимента."
 		buttonText = "Узнать больше"
 
@@ -90,7 +90,8 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		headline = "Наши контакты"
-		description = "Готовы начать с нами сотрудничество? Мы всегда Вам рады!"
+		description = "Юридический адрес: 613046, Кировская область, г. Кирово-Чепецк, пер. Первомайский,  д. 5, офис 8"
+		#description = "Почтовый адрес: 613046, Кировская область, г. Кирово-Чепецк, пер. Первомайский,  д. 5, офис 8"
 		phone = "8 (8332) 47-07-71"
 		email = "kpx43@mail.ru"
 
