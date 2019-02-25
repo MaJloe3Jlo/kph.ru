@@ -3,6 +3,10 @@
     <div class="header-content">
         <div class="header-content-inner">
             {{ with .Site.Params.hero.slogan }}
+            <img src="img/logo.png" width="300px" height="300px"></img>
+            <br>
+            <br>
+            <br>
                 <h1>{{ . | markdownify  }}</h1>
             {{ end }}
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
