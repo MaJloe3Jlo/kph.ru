@@ -58,6 +58,36 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+    text-align: justify;
+    text-indent: 10%;
+}
+
+.email-footer {
+    text-align: center;
+    text-indent: 0%;
+}
+
+.phone-footer {
+    text-align: center;
+    text-indent: 0%;
+}
+
+.descr-footer {
+    text-indent: 0%;
+}
+
+ul {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+ol {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .bg-primary {
@@ -71,6 +101,7 @@ p {
 
 .text-faded {
     color: rgba(255,255,255,.7);
+
 }
 
 section {
@@ -134,7 +165,6 @@ aside {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
-        background-image: 
     }
 
     .navbar-default .navbar-header .navbar-brand {
