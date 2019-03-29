@@ -532,6 +532,8 @@ body {
 
 #map {
     height: 300px;
-    overflow: visible;
+    width: initial; 
+    align-items: center;
+    overflow: invisible;
     position: relative;
 }

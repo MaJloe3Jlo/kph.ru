@@ -1,14 +1,24 @@
 
 {{ if and .Site.Params.location.latitude .Site.Params.location.longitude }}
 <section id="location" class="no-padding">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+                <br/>
+                
+                    <h2 class="section-heading head-color">Схема проезда</h2>
+                    <br/>
+            </div>
     <div class="hidden">
         <input id="gmap-lat" value="{{ .Site.Params.location.latitude }}" />
         <input id="gmap-lng" value="{{ .Site.Params.location.longitude }}" />
     </div>
-    <a href="https://www.google.com/maps?z=16&q={{ .Site.Params.location.latitude }},{{ .Site.Params.location.longitude }}&ll={{ .Site.Params.location.latitude }},{{ .Site.Params.location.longitude }}">
-        <div id="map">
-            &nbsp;
+        <div id="map"  class="hidden">
         </div>
     </a>
+    
+    <div id="map" width=100% >
+
+    <a href="https://www.google.com/maps/place/{{ .Site.Params.location.latitude }}+{{ .Site.Params.location.longitude }}/"><img src="img/map.png"></a>
+    
+    </div>
 </section>
 {{ end }}
