@@ -59,8 +59,14 @@ p {
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
-    text-indent: 10%;
+    text-indent: 5%;
 }
+
+.hero-sub {
+    text-align: center;
+    text-indent: 0%;
+}
+
 
 .email-footer {
     text-align: center;
@@ -102,6 +108,15 @@ ol {
 .text-faded {
     color: rgba(255,255,255,.7);
 
+}
+
+.head-color {
+    color: #0f0f0f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 section {

@@ -12,8 +12,12 @@
                 {{ with .Site.Params.contact.description }}
                     <p class="descr-footer">{{ . | markdownify }}</p>
                 {{ end }}
+
+                
             </div>
-            {{ if .Site.Params.contact.phone }}
+            
+        </div>
+        {{ if .Site.Params.contact.phone }}
                 <div class="
                 {{ if .Site.Params.contact.email }}
                     col-lg-4
@@ -37,6 +41,5 @@
                     <p class="email-footer"><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
                 </div>
             {{ end }}
-        </div>
     </div>
 </section>
