@@ -2,41 +2,22 @@
 <section id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-16  text-center">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
                 {{ with .Site.Params.contact.headline }}
-                    <h2 class="section-heading head-color">{{ . }}</h2>
-            </br>
+                    <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
                 {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
                     <hr class="primary">
                 {{ end }}
-                <!--{{ with .Site.Params.contact.description }}
+                {{ with .Site.Params.contact.description }}
                     <p class="descr-footer">{{ . | markdownify }}</p>
                 {{ end }}
-                -->
-                {{ if .Site.Params.contact.phone }}
-                <div class="col-lg-6 col-lg-offset-0 text-center">
-                    <!--<i class="fa fa-phone fa-3x wow bounceIn"></i>-->
-                    {{ with .Site.Params.contact.phone }}
-                    <p class="descr-footer">{{ . | markdownify }}</p>
-                    {{ end }}
 
-                </div>
-            {{ end }}
-
-            {{ if .Site.Params.contact.email }}
-            <div class="col-lg-6 col-lg-offset-0 text-center">
-                    <!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
-                    {{ with .Site.Params.contact.email }}
-                    <p class="descr-footer">{{ . | markdownify }}</p>
-                    {{ end }}
-                </div>
-            {{ end }}
-            
+                
             </div>
             
         </div>
-        <!--{{ if .Site.Params.contact.phone }}
+        {{ if .Site.Params.contact.phone }}
                 <div class="
                 {{ if .Site.Params.contact.email }}
                     col-lg-4
@@ -59,6 +40,6 @@
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p class="email-footer"><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
                 </div>
-            {{ end }}-->
+            {{ end }}
     </div>
 </section>
